@@ -1,1 +1,35 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="F|Mj/P5puT*:GmJw(|u(" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="mw$~Mo6js/;xPPKF-:=/">Player</variable><variable type="KIND_SpriteKind" id=":u9;)TA-S:3a677OcLfy">Projectile</variable><variable type="KIND_SpriteKind" id="ZQA%cvBf0HQl$cBlrT,^">Food</variable><variable type="KIND_SpriteKind" id="}ILZzxjOuJcO(i@m5ctQ">Enemy</variable><variable id=".#O?.i(x;gecMR6!Ulx]">mySprite</variable><variable id="gq1oS]uZ6${PI1k%$aJ4">mySprite2</variable><variable id="{G/b)^|mG}CqH0#H3Ih-">mySprite3</variable><variable id="D/yUYP0H=B+^[SgN-:ln">mySprite4</variable><variable id="B=%]q2jP9emnC@.~{Ha:">mySprite5</variable><variable id="Di]QkzH$6ZMK$0UrUGu8">mySprite6</variable></variables><block type="pxt-on-start" id="F|Mj/P5puT*:GmJw(|u(" x="-7" y="113"><statement name="HANDLER"><block type="variables_set" id="k{,;iloq;wCr(UA{`,xi"><field name="VAR" id=".#O?.i(x;gecMR6!Ulx]">mySprite</field><value name="VALUE"><shadow type="math_number" id="w~|L8ybt~*,8G7qvsk1B"><field name="NUM">0</field></shadow><block type="spritescreate" id="R_[ie}:Ch-CT9rU+NxVU"><value name="img"><shadow type="screen_image_picker" id="p5OrQ^JBeOKuwAA_`WPC"><field name="img">assets.image`ert`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image2"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="{!cu]q?1)G}QBL7P_Y$A"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="U5n.:qtu8|q%%#|)Sj*w"><field name="VAR" id="gq1oS]uZ6${PI1k%$aJ4">mySprite2</field><value name="VALUE"><shadow type="math_number" id="fGIV)Jz[?{i50$_a*6Jv"><field name="NUM">0</field></shadow><block type="spritescreate" id="ZlK`$$H]Wg$dG|_LzEh+"><value name="img"><shadow type="screen_image_picker" id="gI$Pfg}Vd`a|W(KEsZ,2"><field name="img">assets.image`iop`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image4"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ML-Yt3pH{mU.H(`*g,mB"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="2!:w9C*im2%_?/]=cDEV"><field name="VAR" id="{G/b)^|mG}CqH0#H3Ih-">mySprite3</field><value name="VALUE"><shadow type="math_number" id="$PGzDg`$+Xu|?zP@A7|Y"><field name="NUM">0</field></shadow><block type="spritescreate" id="p-d$J:k,7ukUfKot_aOG"><value name="img"><shadow type="screen_image_picker" id=")6|jb/05#,-F;zp@rljN"><field name="img">assets.image`999`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image5"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="=#VbKiC+)9Gm[KhJcW3w"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="variables_set" id="(mF6=b6B_6eCU+.4`C`7"><field name="VAR" id="D/yUYP0H=B+^[SgN-:ln">mySprite4</field><value name="VALUE"><shadow type="math_number" id="qZ*)+3%d_hp?l-8g~iK?"><field name="NUM">0</field></shadow><block type="spritescreate" id=".pG(zjiuT|xTF9tk~pn`"><value name="img"><shadow type="screen_image_picker" id="O:~#7@SC)Vo?=5%Mo2Wt"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow><block type="screen_image_picker" id="[,)Dh^.}0p@$~tg9dah]"><field name="img">assets.image`0000`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image6"}}</data></block></value><value name="kind"><shadow type="spritekind" id="@R:3?++G+)1R;jXRs{a3"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="variables_set" id="9L_A(wlEAQsl(U7rN8ZW"><field name="VAR" id="B=%]q2jP9emnC@.~{Ha:">mySprite5</field><value name="VALUE"><shadow type="math_number" id="gA;z}NDkI9dx?`X0d1y;"><field name="NUM">0</field></shadow><block type="spritescreate" id="ao%rDaKsu{2b(Yd+dx^r"><value name="img"><shadow type="screen_image_picker" id="RT5_BLSX$0LqKfc[ldz_"><field name="img">assets.image`jj`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image7"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=")cj!QWdc~Xyo~0Z).O]k"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="_?#@/hi6c]D[Isyj@+lL"><field name="VAR" id="Di]QkzH$6ZMK$0UrUGu8">mySprite6</field><value name="VALUE"><shadow type="math_number" id="@MqcCerkwnSTuMXng#rk"><field name="NUM">0</field></shadow><block type="spritescreate" id="!4fK!3;vXqsDE8x;LVH?"><value name="img"><shadow type="screen_image_picker" id="YeXQ@TZ[2vGgnew%H8u]"><field name="img">img`
+...................cc...
+...............cccc63c..
+..............c633336c..
+..........cc.c6cc33333c.
+.........b55c6c55c33333c
+.........ff5c6c5ff33333c
+.........ff5c6c5ff6333cc
+.........b553c355c6666cc
+..........b55355c333333c
+.........cc55555bcc3333c
+........c5545554b55c33c.
+........b54b4444bb5cbb..
+........c455b4b5554c45b.
+........c555c4c555c4c5c.
+........c5555c5555c4c5c.
+.........ccccccccc..ccc.
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="qF/2fq`v}oc!adIa*|+j"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="set_current_tilemap" id="P,ebfCU!M:@|cF2z1HYU"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="Eqaeq#wTdpTtwnX(W}39"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="scenescreenwidth" id="9B[K!$$Wkt;#9p#lS)t," disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-52" y="242"></block></xml>
